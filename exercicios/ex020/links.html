@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style> 
+
+    
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+    
+        a::after{
+            content: '[⇒]';
+            font-weight: normal;
+            text-decoration: none;
+            color: brown;
+        }
+
+        a::before{
+            content: '⇐';
+            font-style: normal;
+            text-decoration: none;
+            color: blueviolet;
+        }   
+       
+        .especial{
+            background-color: black;
+            color: white
+        }
+         
+    </style>
+</head>
+<body>
+  <h1>Personalizando um link</h1> 
+  <ul>
+    <li><a href="https://gustavoguanabara.github.io/" target="_blank"> Github do Guanabara </li></a>
+    <li><a href="https://www.w3c.br" target="_blank" class="especial"> Escritório do W3C no Brasil</a></li>
+    <li><a href="https://www.cursoemvideo.com/"  class="especial" target="_blank"> Site Curso em Video</a></li>
+  </ul>  
+  
+</body>
+</html>

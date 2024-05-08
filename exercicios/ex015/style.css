@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(106, 106, 182);
+}
+h1{
+    color: rgb(211, 2, 2);
+    text-align: center;
+    text-decoration: underline black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: rgb(17, 14, 184);
+    text-decoration: underline black;
+}
