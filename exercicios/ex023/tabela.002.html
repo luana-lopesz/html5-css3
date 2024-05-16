@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -27,20 +28,31 @@
             background-color: lightgray;
             padding: 10px;
         }
-            
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:gray
+           
+        }
         
         thead{
             background-color: gray;
             color: rgb(235, 231, 231);
 
         }
+        tbody> tr:nth-child(even){
+            background-color: lightgray;
+        }
         td.num{
             text-align: right;
         }
-        tfoot{
-            background-color: gray;
-            color: white;
-        }
+        
     </style>
 </head>
 <body>
