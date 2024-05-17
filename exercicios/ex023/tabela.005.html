@@ -4,8 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        
+
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .cnome{
+            background-color: blueviolet;
+        }
+
+        .cgroupo{
+            background-color: rgb(77, 70, 70);
+        }
+        .cprofissao{
+
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 <body>
+    <h1>Exercicio de Tabela</h1>
     
+    <table>
+        <COLgroup>
+            <col class="cnome">
+            <col class="cgroupo" span="2">
+            <col class="cprofissao ">
+             
+        </COLgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>27</td>
+            <td>F</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Marcos</td>
+            <td>27</td>
+            <Td>M</Td>
+            <td>Programador</td>
+        </tr>
+
+        <tr>
+            <tr>
+                <td>Léticia</td>
+                <td>35</td>
+                <td>F</td>
+                <td>Médica</td>
+            </tr>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>22</td>
+            <td>F</td>
+            <td>Tiktoker</td>
+        </tr>
+        <tr>
+            <td>Francisco</td>
+            <td>32</td>
+            <td>M</td>
+            <td>Advogado</td>
+        </tr>
+            <tr>
+                <td>Marilia</td>
+                <td>35</td>
+                <td>F</td>
+                <td>Cantora</td>
+            </tr>
+
+            <tr>
+                <td>Agatha</td>
+                <td>45</td>
+                <td>F</td>
+                <td>Juíza</td>
+            </tr>
+    </table>
 </body>
 </html>
