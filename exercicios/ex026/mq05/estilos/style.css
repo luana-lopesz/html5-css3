@@ -12,13 +12,13 @@ body, html{
 }
 
 header{
-    background-color: rgb(58, 55, 55);
+    background-color:#C0E0DE;
 }
 
 header h1{
     padding: 10px;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 span#burguer{
@@ -31,7 +31,7 @@ span#burguer{
 }
 
 span#burguer:hover{
-    background-color: black;
+    background-color: rgb(134, 111, 35);
     color: white;
 }
 nav{
@@ -47,13 +47,13 @@ nav a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: rgb(13, 39, 73);
+    background-color: #476688;
     color: white;
     border-top: 2px solid rgb(56, 54, 54);
 }
 
 nav a:hover{
-    background-color: gray;
+    background-color: rgb(58, 41, 41);
 }
 main{
     width: 90vh;
