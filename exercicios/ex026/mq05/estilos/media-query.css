@@ -9,7 +9,7 @@
         display: block;
     }
 
-    nav li{
+    nav >ul > li{
         display: inline-block;
         border-radius: 10px;
     }
